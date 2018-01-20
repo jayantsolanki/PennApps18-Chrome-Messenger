@@ -1,20 +1,6 @@
 var mosca = require('mosca');
 const bcrypt = require('bcrypt');
 var env = require('./settings');//importing settings file, environment variables
-/**************thingSpeak client**************/
-// var ThingSpeakClient = require('thingspeakclient');
-// var TSclient = new ThingSpeakClient({
-//   server:'http://10.129.139.139:3000',
-//   updateTimeout:20000
-// });
-
-/***************Adding websocket feature*******/
-// var uuid = require('node-uuid');
-// var WebSocketServer = require('ws').Server,
-//     wss = new WebSocketServer({port: 8180});
-// var wscon=null;
-// var clients=[];
-  ///////////////////////
 ////initiating the bunyan log
 var Logger = require('bunyan');
 var log = new Logger({name:'Messenger-Log', 
@@ -188,13 +174,13 @@ server.on('published', function(packet, client) {
       }
 
   }
-  if(packet.topic=='connect')//request for registering the user
+  if(packet.topic=='connect')//request for signing-in the user and fetching friendlists
   {
     var obj = JSON.parse(packet.payload);
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if(emailRegex.test(client.id))//check if the username is the regex in email format form
     { 
-      var check='SELECT password FROM login WHERE username=\''+obj.username+'\''; //checking if the user/password exists or not
+      var check='SELECT user_id, password FROM login WHERE username=\''+obj.username+'\''; //checking if the user/password exists or not
       connection.query(check, function(err, rows, fields) 
       {
       
@@ -203,12 +189,38 @@ server.on('published', function(packet, client) {
         else{
           if(rows.length>0){
               storedPass = rows[0].password;//retrieving stored password
+              user_id = rows[0].user_id//retrieving user_id
               // let hash = bcrypt.hashSync(toString(packet.payload), 10);
               if(bcrypt.compareSync(obj.password, storedPass)) {
                log.info('Passwords matched')
               } else {
                log.warn('Passwords not matched')
               }
+              //proceed to fetch the friend list
+              var check='SELECT user_details.name as name, user_details.email as email, friends_map.topic as topic FROM friends_map left join user_details on user_details.id = friends_map.user_id_2 WHERE friends_map.user_id_1='+user_id+''; //return all the topics and related friends
+              connection.query(check, function(err, nrows, fields) 
+              {      
+                if (err) 
+                  log.error("MYSQL ERROR "+err);
+                else{
+                  if(nrows.length>0){//email found
+                      name = nrows[0].name;//retrieving stored name
+                      email = nrows[0].email;//retrieving stored email
+                      gender = nrows[0].gender;//retrieving stored gender
+                      var jsonS={//just for single friend now
+                        "name":name,
+                        "email": email,
+                        "topic" : topic
+                      };
+                      //send it back to user
+                      //choose topic search
+                      log.info(jsonS)
+
+                  }
+                  else
+                    log.warn('User '+obj.email+' does not exist')
+                }
+              });//query check ended
           }
           else
             log.warn('User '+obj.username+' does not exist')
@@ -228,7 +240,7 @@ server.on('published', function(packet, client) {
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if(emailRegex.test(obj.email))//check if the username is the regex in email format form
     { 
-      var check='SELECT * FROM user_details WHERE username=\''+obj.email+'\''; //checking if the user/password exists or not
+      var check='SELECT * FROM user_details WHERE email=\''+obj.email+'\''; //checking if the user/password exists or not
       connection.query(check, function(err, rows, fields) 
       {      
         if (err) 
@@ -238,7 +250,6 @@ server.on('published', function(packet, client) {
               name = rows[0].name;//retrieving stored name
               email = rows[0].email;//retrieving stored email
               gender = rows[0].gender;//retrieving stored gender
-              // let hash = bcrypt.hashSync(toString(packet.payload), 10);
               var jsonS={
                 "name":name,
                 "email": email,
@@ -246,6 +257,7 @@ server.on('published', function(packet, client) {
               };
               //send it back to user
               //choose topic search
+              log.info('Email found successfully')
 
           }
           else
@@ -266,16 +278,17 @@ server.on('published', function(packet, client) {
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if(emailRegex.test(obj.email))//check if the username is the regex in email format form
     { 
-      var check='SELECT id FROM user_details WHERE username=\''+obj.email+'\''; //checking if the user/password exists or not
+      var check='SELECT id FROM user_details WHERE username=\''+obj.email+'\''; //checking if the friend user/password exists or not
       connection.query(check, function(err, rows, fields) 
       {      
         if (err) 
           log.error("MYSQL ERROR "+err);
         else{
           if(rows.length>0){//email found
-              id1 = rows[0].id;//retrieving stored userid
-              findUseriId(obj.username, function(id2){//id look-up for particular username
-                var createUser='INSERT INTO friends_map (user_id_1, user_id_2, topic) VALUES ('+id1+', \''+id2+'\',\''+Math.random().toString(36).substr(2, 7)+'\')'
+              id2 = rows[0].id;//retrieving stored userid
+              var topic = Math.random().toString(36).substr(2, 7)
+              findUseriId(obj.username, function(id1){//id look-up for host username
+                var createUser='INSERT INTO friends_map (user_id_1, user_id_2, topic) VALUES ('+id1+', \''+id2+'\',\''+topic+'\'), ('+id2+', \''+id1+'\',\''+topic+'\')'//adding for each friend respectively, redundant now, but will fix it later
                 connection.query(createUser, function(err, rows, fields) { //insert into the table 
                   if (err) 
                   {
@@ -283,7 +296,7 @@ server.on('published', function(packet, client) {
                     //some transacion error may occer, login entry created but this entry may not be created
                   }
                   else{
-                    log.info('New User found, adding '+obj.username+' into login table');
+                    log.info('Mapping Created');
                   }
                 });              
               });
@@ -335,7 +348,6 @@ function findUseriId(username, callback){
       if(err)
         log.error('Error in finding userid from user_details table, '+err);
       else{
-        //log.info('Channel id ',rows[0].id," for sensor ",name);
         if(rows.length>0){
           callback(rows[0].id);
         }

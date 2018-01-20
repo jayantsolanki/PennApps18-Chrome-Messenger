@@ -1203,3 +1203,56 @@
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:59:18.010Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T07:00:50.287Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Passwords matched","time":"2018-01-20T07:00:50.352Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6345,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:09:06.745Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6345,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:09:06.805Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6345,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:09:13.154Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6345,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:09:20.533Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6569,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:12:56.728Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6569,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:12:56.792Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6569,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:12:59.765Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6569,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:13:05.550Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6628,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:13:30.424Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6628,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:13:30.487Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6628,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:13:34.350Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6711,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:14:00.141Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6711,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:14:00.205Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6711,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:14:02.252Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6760,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:14:48.011Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6760,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:14:48.073Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6760,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:14:51.967Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6760,"level":30,"msg":"Email found successfully","time":"2018-01-20T08:14:51.981Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6897,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:18:04.489Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6897,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:18:04.549Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6897,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:18:07.284Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6897,"level":50,"msg":"MYSQL ERROR Error: ER_BAD_FIELD_ERROR: Unknown column 'user_id_1' in 'field list'","time":"2018-01-20T08:18:07.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6897,"level":50,"msg":"MYSQL ERROR Error: ER_BAD_FIELD_ERROR: Unknown column 'user_id_1' in 'field list'","time":"2018-01-20T08:18:07.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6897,"level":50,"msg":"MYSQL ERROR Error: ER_BAD_FIELD_ERROR: Unknown column 'user_id_1' in 'field list'","time":"2018-01-20T08:18:07.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:18:43.851Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:18:43.911Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:18:48.621Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Mapping Created","time":"2018-01-20T08:18:48.644Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:19:26.623Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Mapping Created","time":"2018-01-20T08:19:26.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:21:33.613Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Published username undefined","time":"2018-01-20T08:21:33.618Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry '9044775933' for key 'contact'","time":"2018-01-20T08:21:33.681Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry '9044775933' for key 'contact'","time":"2018-01-20T08:21:33.681Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry '9044775933' for key 'contact'","time":"2018-01-20T08:21:33.681Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T08:21:33.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T08:21:33.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:22:00.696Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Published username undefined","time":"2018-01-20T08:22:00.705Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into user_details table","time":"2018-01-20T08:22:00.795Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"User connected","time":"2018-01-20T08:22:00.795Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"New User found, adding undefined into login table","time":"2018-01-20T08:22:00.801Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:23:32.149Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6993,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T08:23:32.155Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":7586,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:24:32.991Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":7586,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:24:33.053Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":7586,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:24:36.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":7586,"level":30,"msg":"Mapping Created","time":"2018-01-20T08:24:36.663Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8929,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:52:45.443Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8929,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:52:45.505Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8929,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:52:47.931Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8929,"level":30,"msg":"Passwords matched","time":"2018-01-20T08:52:48.001Z","v":0}
+{"name":"Jayant Solanki","hostname":"Mockingjay","pid":8929,"level":30,"email":"jayantjnp@gmail.com","topic":"connect","msg":"","time":"2018-01-20T08:52:48.002Z","v":0}
