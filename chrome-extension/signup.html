@@ -70,9 +70,12 @@ span {
 
 </style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="browserMqtt.js"></script>
+
 <script type="text/javascript">
   $(document).ready(function() {
   $("#btn").click(function(e){
+    e.preventDefault(); 
    var jsonData = {};
    
    var formData = $("#myform").serializeArray();
@@ -93,9 +96,10 @@ span {
    $('#result').text(JSON.stringify(formData));
    console.log(jsonData);
 
-    var mqtt    = require('mqtt');
+   // var mqtt    = require('mqtt');
     //var pub  = mqtt.connect('tcp://0.0.0.0:61620',{encoding:'utf8', clientId: 'Publishers'});
-    var pub  = mqtt.connect('mqtt://127.0.0.1:1883',{encoding:'utf8', clientId: document.getElementById("myform").username.value});
+    var pub  = mqtt.connect('ws://10.103.226.26:3000',{encoding:'utf8', clientId: "anant@gmail.com"});
+    console.log(document.getElementById("myform").username.value)
      
     //pub.on();
     //pub.publish('esp/12-31-13-AA-FD-43', '12-31-13-AA-FD-433005', {retain:false, qos: 0});
@@ -113,15 +117,7 @@ span {
     // };
     pub.publish('connect', JSON.stringify(jsonData), {retain:false, qos: 0});
     pub.end();
-
-  $.ajax(
-  {
-    url : "action.php",
-    type: "POST",
-    data : jsonData,
     
-  });
-    e.preventDefault(); 
 });
 });
 </script>
@@ -132,7 +128,7 @@ span {
  Send Form's data as JSON
 </div>
    
-<form id="myform" type="post">
+<form id="myform" action="">
   <fieldset>
     <legend>SignUp Form  </legend>
     <p>Please fill out this form</p>
@@ -144,7 +140,7 @@ span {
     
      <div class="elements">
       <label for="Password">Password :</label>
-      <input placeholder="Password"  required="required" type="Password"   name="Password" />
+      <input placeholder="Password"  required="required" type="Password"   name="password" />
     </div>
             
   <div class="elements">
@@ -172,7 +168,7 @@ span {
       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
       
     <div class="submit">
-       <input type="submit" id="btn" name="btn" class="btn" value="Submit" />
+       <input type="Submit" id="btn" name="btn" class="btn" value="Submit" />
     </div>
 
     <pre id="result">
@@ -182,9 +178,5 @@ span {
   </fieldset>
 </form>
 </body>
-<script type="text/javascript">
-
-</script>
-
 
 </html>

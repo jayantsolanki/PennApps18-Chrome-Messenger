@@ -6,14 +6,14 @@ var pub  = mqtt.connect('mqtt://10.103.226.26:1883',{encoding:'utf8', clientId: 
 //pub.publish('esp/12-31-13-AA-FD-43', '12-31-13-AA-FD-433005', {retain:false, qos: 0});
 // pub.publish('register', 'jayants123', {retain:true, qos: 0});
 var jsonS={
-	"username":'rohit@gmail.com',
-	"password":'Rohits',
-	"name" : 'Rohit Nigam',
+	"username":'parik@gmail.com',
+	"password":'parik00',
+	"name" : 'Parikshit',
 	"gender" :  'Male',
-	"contact" : 9044775913
+	"contact" : 123456789
 };
 // var jsonS={
-// 	"username":'jayantjnp@gmail.com',//host
+// 	"username":'parik@gmail.com',//host
 // 	"email":'rohit@gmail.com',//for friend
 // };
 pub.publish('hello', JSON.stringify(jsonS), {retain:true, qos: 0});
