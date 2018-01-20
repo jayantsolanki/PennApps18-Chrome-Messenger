@@ -4,7 +4,6 @@ localhost:'localhost',
 user:'root',
 password:'jayant123',
 database:'Messenger',
-database2:'thingspeak_development',
 mhost2:"127.0.0.1",
 /***********mosca settings************/
 mhost:"127.0.0.1",

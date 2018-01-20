@@ -1,4 +1,5 @@
 var mosca = require('mosca');
+const bcrypt = require('bcrypt');
 var env = require('./settings');//importing settings file, environment variables
 /**************thingSpeak client**************/
 // var ThingSpeakClient = require('thingspeakclient');
@@ -74,7 +75,7 @@ var localdb_config={
   host     : env.localhost,
   user     : env.user,
   password : env.password,
-  socketPath: '/var/run/mysqld/mysqld.sock',
+  // socketPath: '/var/run/mysqld/mysqld.sock',
   database : env.database
 }
 // var thingspeak_config={ //for thingspeak
@@ -87,6 +88,7 @@ var localdb_config={
 var connection = mysql.createConnection(localdb_config);
 // var thingspeak = mysql.createConnection(thingspeak_config);
 connection.connect();//general
+log.info("Database connection initialised");
 // thingspeak.connect();//thingspeak
 //configuration ended
  
@@ -124,77 +126,8 @@ var server = new mosca.Server(settings);
 //device discovery
 server.on('clientConnected', function(client) {
     var val=client.id;
-	
-    //var date = new Date();
-   // if(val!='M-O-S-C-A'){ //do not enter client id of server
-      var post  = {username: val};
-      var check='SELECT EXISTS(SELECT * FROM login WHERE username=\''+val+'\') as find';
-      connection.query(check, function(err, rows, fields) {
-      //console.log('Inside client connected '+val);
-      
-        if (err) 
-        log.error("MYSQL ERROR "+err);
-        else{
-            var find=rows[0]['find'];
-           // console.log('Inside client connected '+find);
-            var regex = /^([0-9a-f]{2}[:-]){5}([0-9a-f]{2})$/;
-            //console.log('Mac id is valid? '+regex.test(post.macid));
-            if(find==0){ //check user is the new one, find=0 means new user found, no previous entry in the table
-              if(regex.test(post.username))//check if the client id is the macid
-              { //(id, deviceId, name, description,type,switches,regionId, latitude,longitude,field1,field2,field3,field4,field5,field6, created_at, updated_at, elevation)
-                var devdis='INSERT INTO login (deviceId, type) VALUES (\''+post.username+'\',1)'
-                connection.query(devdis, function(err, rows, fields) { //insert into the table 
-                  if (err) 
-                    log.error("MYSQL ERROR "+err);
-                  else{
-                    // log.info('New User found, adding '+post.username+' into user_details table');
-                    // log.info('Requesting for more data from device '+post.macid);
-                    // var mqttclient  = mqtt.connect(mqttaddress,{encoding:'utf8', clientId: 'M-E-S-S-E-N-G-E-R'});
-                    // mqttpub(mqttclient,post.macid,0,2);//calling mqttpub for publishing value 2 to all macids
-                    // mqttclient.end();
-                    console.log("User connected")
-                    // var jsonS={
-                    //      "deviceId":post.macid,
-                    //      "action":'info',
-                    //      "data"  :"new Device Found"
-                    // };
-                    // sendAll(jsonS);//sending button status to all device
-                    /*TSclient.createChannel(1, { 'api_key':env.apiKey,'name':post.macid, 'field1':'PbatValue', 'field2':'SbatValue','field3':'packetID'}, function(err) {
-                      if (!err) {//channel creation done
-                          log.info('New channel created for new Valve: '+post.macid);
-                          attachChannel(post.macid);//attaching the channel;
-                      }
-                      else
-                      {
-                        console.log(err)
-                      }
-                    });*/
-                  }
-                });
-              }
-            }
-          
-            else{
-              log.info('Device '+post.username+' reconnected ');
-              //var devdis='UPDATE devices SET status=1, seen= now() where status!=2 and macid=\''+post.macid+'\'';
-              // var devdis='INSERT INTO deviceStatus VALUES (DEFAULT,\''+post.macid+'\',1, DEFAULT)';
-              // connection.query(devdis, function(err, rows, fields) { //updating device status as online if it reconnects
-              //   if (err)
-              //     log.error("MYSQL ERROR "+err);
-              //   //else
-              //    // console.log('Device '+post.macid+' marked online '+date);
-            
-              // });
-              // var jsonS={
-              //        "deviceId":val,
-              //        "status":1
-              //  };
-              //  sendAll(jsonS);//sending  online status to website
-            }
-          }
-      });
-   // }
-    //console.log('client connected', client.id);
+    log.info('Client connected '+val)
+   
 });
 
 server.on('unsubscribed', function(topic, client) { //checking if the device goes offline
@@ -218,14 +151,56 @@ server.on('unsubscribed', function(topic, client) { //checking if the device goe
 
 });
 // fired when a message is received 
-server.on('published', function(packet) {
+server.on('published', function(packet, client) {
   //var date = new Date();
   var topic=packet.topic; //get value of payload
   // var regex1 = /^([0-9a-f]{2}[:-]){5}([0-9a-f]{2})$/;
   // topic=topic.toString();
-  log.info('Client id is ',packet.cmd);
-  log.info('Published topic '+packet.topic);
-  log.info('Published payload '+packet.payload);
+  // log.info('Client id is '+client.id+' ');
+  // log.info('Published topic '+packet.topic);
+  // log.info('Published payload '+packet.payload);
+  if(packet.topic=='register')//request for registering the user
+  {
+    var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if(emailRegex.test(client.id))//regex.test(post.username))//check if the username is the regex in email format form
+      { 
+        let hash = bcrypt.hashSync(toString(packet.payload), 10);
+        var devdis='INSERT INTO login (user_id, username, password) VALUES (1223, \''+client.id+'\',\''+hash+'\')'
+        connection.query(devdis, function(err, rows, fields) { //insert into the table 
+          if (err) 
+            log.error("MYSQL ERROR "+err);
+          else{
+            log.info('New User found, adding '+client.id+' into login table');
+            // log.info('Requesting for more data from device '+post.username);
+            // var mqttclient  = mqtt.connect(mqttaddress,{encoding:'utf8', clientId: 'M-E-S-S-E-N-G-E-R'});
+            // mqttpub(mqttclient,post.macid,0,2);//calling mqttpub for publishing value 2 to all macids
+            // mqttclient.end();
+            console.log("User connected")
+            // var jsonS={
+            //      "deviceId":post.macid,
+            //      "action":'info',
+            //      "data"  :"new Device Found"
+            // };
+            // sendAll(jsonS);//sending button status to all device
+            /*TSclient.createChannel(1, { 'api_key':env.apiKey,'name':post.macid, 'field1':'PbatValue', 'field2':'SbatValue','field3':'packetID'}, function(err) {
+              if (!err) {//channel creation done
+                  log.info('New channel created for new Valve: '+post.macid);
+                  attachChannel(post.macid);//attaching the channel;
+              }
+              else
+              {
+                console.log(err)
+              }
+            });*/
+          }
+        });
+      }
+      else
+      {
+        log.error("Wrong username format, must be email");
+      }
+
+  }
   // var jsonS={
   //      "action":'mqtt payload',
   //      "data"  :packet
