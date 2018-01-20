@@ -81,6 +81,12 @@ log.info("Database connection initialised");
 var settings = {
   port: env.mport,
   host: env.mhost,
+  http: {
+    port: 3000,
+    bundle: true,
+    static: './'
+
+  },
   backend: ascoltatore,
   persistence: {
     factory: mosca.persistence.Mongo,
@@ -197,7 +203,7 @@ server.on('published', function(packet, client) {
                log.warn('Passwords not matched')
               }
               //proceed to fetch the friend list
-              var check='SELECT user_details.name as name, user_details.email as email, friends_map.topic as topic FROM friends_map left join user_details on user_details.id = friends_map.user_id_2 WHERE friends_map.user_id_1='+user_id+''; //return all the topics and related friends
+              var check='SELECT user_details.name as name, user_details.email as email, user_details.gender as gender, friends_map.topic as topic FROM friends_map left join user_details on user_details.id = friends_map.user_id_2 WHERE friends_map.user_id_1='+user_id+''; //return all the topics and related friends
               connection.query(check, function(err, nrows, fields) 
               {      
                 if (err) 
@@ -207,6 +213,7 @@ server.on('published', function(packet, client) {
                       name = nrows[0].name;//retrieving stored name
                       email = nrows[0].email;//retrieving stored email
                       gender = nrows[0].gender;//retrieving stored gender
+                      topic = nrows[0].topic;//retrieving stored gender
                       var jsonS={//just for single friend now
                         "name":name,
                         "email": email,

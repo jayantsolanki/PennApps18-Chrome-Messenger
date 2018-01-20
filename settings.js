@@ -4,14 +4,10 @@ localhost:'localhost',
 user:'root',
 password:'jayant123',
 database:'Messenger',
-mhost2:"127.0.0.1",
+mhost2:"10.103.226.26",
 /***********mosca settings************/
-mhost:"127.0.0.1",
+mhost:"10.103.226.26",
 mport:1883,
 /***********mqtt address************/
-mqtt:'mqtt://127.0.0.1',
-/***************Serial Port*******************/
-portNo:'/dev/pts/10',
-/******************/
-apiKey:'KE4UZ68QJIRP5P1L' //thingspeak account apikeyclear
+mqtt:'mqtt://10.103.226.26'
 };
