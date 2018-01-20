@@ -16,5 +16,5 @@ var jsonS={
 // 	"username":'jayantjnp@gmail.com',//host
 // 	"email":'rohit@gmail.com',//for friend
 // };
-pub.publish('connect', JSON.stringify(jsonS), {retain:false, qos: 0});
+pub.publish('hello', JSON.stringify(jsonS), {retain:false, qos: 0});
 pub.end();

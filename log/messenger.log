@@ -1256,3 +1256,12 @@
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":8929,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:52:47.931Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":8929,"level":30,"msg":"Passwords matched","time":"2018-01-20T08:52:48.001Z","v":0}
 {"name":"Jayant Solanki","hostname":"Mockingjay","pid":8929,"level":30,"email":"jayantjnp@gmail.com","topic":"connect","msg":"","time":"2018-01-20T08:52:48.002Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Database connection initialised","time":"2018-01-20T08:57:12.794Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T08:57:12.858Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Client connected subscriber","time":"2018-01-20T08:57:17.830Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:57:26.507Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"client unsubscribed subscriber","time":"2018-01-20T08:57:26.527Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Client connected subscriber","time":"2018-01-20T08:57:57.850Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T08:58:01.106Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"client unsubscribed subscriber","time":"2018-01-20T08:58:01.121Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":9106,"level":30,"msg":"Client connected subscriber","time":"2018-01-20T09:02:38.618Z","v":0}
