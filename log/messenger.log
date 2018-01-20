@@ -237,3 +237,969 @@
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":17811,"level":30,"msg":"Database connection initialised","time":"2018-01-20T02:59:17.733Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":17811,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T02:59:17.794Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":17811,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T02:59:31.539Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":18838,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:20:30.464Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":18838,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:20:30.526Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":18838,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:20:36.228Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19053,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:23:50.233Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19053,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:23:50.294Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19053,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:23:53.369Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19105,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:24:22.862Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19105,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:24:22.924Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19105,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:24:25.834Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19105,"level":40,"msg":"Passwords not matched","time":"2018-01-20T03:24:25.848Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19105,"level":40,"msg":"Passwords not matched","time":"2018-01-20T03:24:25.848Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:25:53.836Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:25:53.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:25:56.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T03:25:56.792Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T03:25:56.792Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T03:25:56.792Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:25:56.792Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19211,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:25:56.792Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:38:50.901Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:38:50.960Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:38:52.996Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:38:53.066Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:38:53.066Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:38:53.066Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:38:53.066Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19784,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:38:53.066Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:39:44.719Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:39:44.779Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:39:46.618Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T03:39:46.694Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T03:39:46.694Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T03:39:46.694Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:39:46.694Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19902,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:39:46.694Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:42:02.039Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:42:02.101Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:42:07.211Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:42:07.281Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:42:07.281Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:42:07.281Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:42:07.281Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":19997,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:42:07.281Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":30,"msg":"Database connection initialised","time":"2018-01-20T03:42:53.557Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T03:42:53.618Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T03:42:58.204Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:42:58.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:42:58.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":50,"msg":"MYSQL ERROR Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO login (user_id, username, password) VALUES (1223, 'jayantjnp@gmail.c' at line 1","time":"2018-01-20T03:42:58.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:42:58.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20061,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T03:42:58.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:00:13.920Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:00:13.983Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:00:16.765Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T04:00:16.844Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T04:00:16.844Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'jayantjnp@gmail.com' for key 'username'","time":"2018-01-20T04:00:16.844Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:00:16.845Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":20773,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:00:16.845Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:08:12.156Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:08:12.217Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:08:15.946Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:08:16.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:08:16.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:08:16.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:08:16.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21206,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:08:16.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:09:29.725Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:09:29.788Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:09:33.992Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":50,"msg":"MYSQL ERROR Error: ER_NO_DEFAULT_FOR_FIELD: Field 'role' doesn't have a default value","time":"2018-01-20T04:09:34.062Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":50,"msg":"MYSQL ERROR Error: ER_NO_DEFAULT_FOR_FIELD: Field 'role' doesn't have a default value","time":"2018-01-20T04:09:34.062Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":50,"msg":"MYSQL ERROR Error: ER_NO_DEFAULT_FOR_FIELD: Field 'role' doesn't have a default value","time":"2018-01-20T04:09:34.062Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:09:34.062Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21320,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:09:34.062Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21477,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:10:21.775Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21477,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:10:21.837Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21477,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:10:24.224Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21477,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T04:10:24.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:11:05.079Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:11:05.140Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:11:06.892Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:11:06.901Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:11:06.903Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":30,"msg":"Published payload {\"username\":\"jayant@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T04:11:06.904Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'undefined' for key 'email'","time":"2018-01-20T04:11:06.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'undefined' for key 'email'","time":"2018-01-20T04:11:06.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":50,"msg":"MYSQL ERROR Error: ER_DUP_ENTRY: Duplicate entry 'undefined' for key 'email'","time":"2018-01-20T04:11:06.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:11:06.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21552,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:11:06.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:12:57.195Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:12:57.256Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:12:59.619Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:12:59.627Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:12:59.629Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":30,"msg":"Published payload {\"username\":\"jayant@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T04:12:59.629Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:12:59.689Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:12:59.689Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:12:59.689Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:12:59.689Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21661,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:12:59.689Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:15:09.847Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:15:09.908Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:15:11.825Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:15:11.833Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":30,"msg":"Published payload {\"username\":\"jayant@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T04:15:11.835Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:15:11.892Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:15:11.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:15:11.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:15:11.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:15:11.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21914,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:15:11.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:16:07.186Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:16:07.246Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:16:11.481Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:16:11.490Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:16:11.492Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:16:11.492Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:16:11.552Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:16:11.552Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:16:11.552Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:16:11.552Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":21968,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:16:11.552Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:17:02.932Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:17:02.992Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:17:05.232Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:17:05.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:17:05.242Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:17:05.243Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:17:05.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:17:05.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:17:05.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:17:05.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22023,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:17:05.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:26:04.901Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:26:04.961Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:26:07.082Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:26:07.090Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:26:07.092Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":30,"msg":"Published payload undefined","time":"2018-01-20T04:26:07.092Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:26:07.151Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:26:07.151Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:26:07.151Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:26:07.151Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22357,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:26:07.151Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:27:13.571Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:27:13.633Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:27:17.145Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":30,"msg":"Published payload [object Undefined]","time":"2018-01-20T04:27:17.153Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":30,"msg":"Published payload [object Undefined]","time":"2018-01-20T04:27:17.155Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":30,"msg":"Published payload [object Undefined]","time":"2018-01-20T04:27:17.156Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:27:17.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:27:17.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:27:17.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:27:17.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22469,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:27:17.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":30,"msg":"Database connection initialised","time":"2018-01-20T04:27:51.471Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T04:27:51.531Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T04:27:53.486Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:27:53.495Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":30,"msg":"Published payload {\"username\":\"jayant@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T04:27:53.497Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T04:27:53.554Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:27:53.557Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:27:53.557Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T04:27:53.557Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:27:53.557Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":22526,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T04:27:53.557Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:06:40.237Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:06:40.300Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:06:43.217Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:06:43.226Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:06:43.228Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:06:43.285Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:06:43.288Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:06:43.288Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:06:43.288Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:06:43.288Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24817,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:06:43.288Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24857,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:07:22.498Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24857,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:07:22.561Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":24857,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:07:24.599Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25259,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:08:28.449Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25259,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:08:28.509Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25259,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:08:30.569Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:09:01.092Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:09:01.153Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:09:03.560Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T05:09:03.569Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T05:09:03.571Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":30,"msg":"Published payload {\"username\":\"jayant@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T05:09:03.572Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:09:03.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:09:03.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:09:03.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:09:03.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25340,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:09:03.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:09:24.527Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:09:24.587Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:09:26.890Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:09:26.899Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:09:26.901Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:09:26.957Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:09:26.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:09:26.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:09:26.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:09:26.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25384,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:09:26.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:14:29.585Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:14:29.645Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:14:31.949Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:14:31.958Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:14:31.960Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:14:31.960Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:14:32.021Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:14:32.021Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:14:32.021Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:14:32.021Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25751,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:14:32.021Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:14:52.165Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:14:52.227Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:14:55.026Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:14:55.034Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:14:55.036Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:14:55.036Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:14:55.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:14:55.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:14:55.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:14:55.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25791,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:14:55.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25888,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:17:20.117Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25888,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:17:20.184Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25888,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:17:21.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:17:43.558Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:17:43.623Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:17:46.637Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:17:46.647Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:17:46.649Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:17:46.710Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:17:46.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:17:46.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:17:46.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:17:46.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25933,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:17:46.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25988,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:18:28.500Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25988,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:18:28.565Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":25988,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:18:30.347Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26074,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:18:51.546Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26074,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:18:51.615Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26074,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:18:53.800Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26138,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:19:28.408Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26138,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:19:28.480Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26138,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:19:30.596Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:19:47.861Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:19:47.928Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:19:49.166Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:19:49.176Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:19:49.179Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:19:49.179Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:19:53.980Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:19:53.982Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:19:53.987Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26182,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:19:53.988Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26236,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:20:11.577Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26236,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:20:11.637Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26236,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:20:15.528Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26236,"level":30,"msg":"Published payload {\"topic\":\"$SYS/2TGf4eV/new/clients\",\"payload\":\"jayantjnp@gmail.com\",\"messageId\":\"B1C_6qn\"}","time":"2018-01-20T05:20:15.536Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26236,"level":30,"msg":"Published payload {\"topic\":\"register\",\"payload\":{\"type\":\"Buffer\",\"data\":[123,34,117,115,101,114,110,97,109,101,34,58,34,106,97,121,97,110,116,106,110,112,64,103,109,97,105,108,46,99,111,109,34,44,34,112,97,115,115,119,111,114,100,34,58,34,106,97,121,97,110,116,115,34,44,34,110,97,109,101,34,58,34,74,97,121,97,110,116,32,83,111,108,97,110,107,105,34,44,34,103,101,110,100,101,114,34,58,34,77,97,108,101,34,44,34,99,111,110,116,97,99,116,34,58,57,48,52,52,55,55,53,57,51,51,125]},\"messageId\":\"RaeDych\",\"qos\":0,\"retain\":false}","time":"2018-01-20T05:20:15.538Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26236,"level":30,"msg":"Published payload {\"topic\":\"$SYS/2TGf4eV/disconnect/clients\",\"payload\":\"jayantjnp@gmail.com\",\"messageId\":\"2LjADPr\"}","time":"2018-01-20T05:20:15.539Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26287,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:20:52.164Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26287,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:20:52.227Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26287,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:20:53.547Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26333,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:21:07.270Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26333,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:21:07.330Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26333,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:21:08.918Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:21:28.116Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:21:28.176Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:21:30.013Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:21:30.022Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:21:30.024Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:21:30.082Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:21:30.084Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:21:30.084Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:21:30.084Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:21:30.084Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26379,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:21:30.084Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:21:49.773Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:21:49.833Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:21:51.836Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:21:51.845Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:21:51.847Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:21:51.847Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:21:51.907Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:21:51.907Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:21:51.907Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:21:51.907Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26421,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:21:51.907Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26466,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:22:05.688Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26466,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:22:05.754Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26466,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:22:07.092Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:22:29.884Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:22:29.946Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:22:31.383Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:22:31.392Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:22:31.394Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:22:31.394Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:22:39.223Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:22:39.224Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:22:39.229Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26507,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:22:39.230Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26628,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:23:21.341Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26628,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:23:21.401Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26628,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:23:22.943Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26628,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:23:22.952Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26628,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:23:22.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26628,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:23:22.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26667,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:23:39.631Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26667,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:23:39.692Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26667,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:23:42.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26667,"level":30,"msg":"Published payload {\"topic\":\"$SYS/UrAhkmO/new/clients\",\"payload\":\"jayantjnp@gmail.com\",\"messageId\":\"lImUvVb\"}","time":"2018-01-20T05:23:42.648Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26667,"level":30,"msg":"Published payload {\"topic\":\"$SYS/UrAhkmO/disconnect/clients\",\"payload\":\"jayantjnp@gmail.com\",\"messageId\":\"SESHEDk\"}","time":"2018-01-20T05:23:42.650Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26667,"level":30,"msg":"Published payload {\"topic\":\"register\",\"payload\":{\"type\":\"Buffer\",\"data\":[123,34,117,115,101,114,110,97,109,101,34,58,34,106,97,121,97,110,116,106,110,112,64,103,109,97,105,108,46,99,111,109,34,44,34,112,97,115,115,119,111,114,100,34,58,34,106,97,121,97,110,116,115,34,44,34,110,97,109,101,34,58,34,74,97,121,97,110,116,32,83,111,108,97,110,107,105,34,44,34,103,101,110,100,101,114,34,58,34,77,97,108,101,34,44,34,99,111,110,116,97,99,116,34,58,57,48,52,52,55,55,53,57,51,51,125]},\"messageId\":\"yCZfoVo\",\"qos\":0,\"retain\":false}","time":"2018-01-20T05:23:42.650Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26768,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:24:18.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26768,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:24:18.367Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26768,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:24:20.011Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26768,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:24:20.020Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26768,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:24:20.022Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26768,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:24:20.022Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26808,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:24:35.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26808,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:24:35.961Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26808,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:24:37.437Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26808,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:24:37.446Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26808,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:24:37.448Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26808,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:24:37.449Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:24:55.521Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:24:55.581Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:24:56.893Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":30,"msg":"Published payload [object Object]","time":"2018-01-20T05:24:56.902Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":30,"msg":"Published payload [object Object]","time":"2018-01-20T05:24:56.904Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":30,"msg":"Published payload [object Object]","time":"2018-01-20T05:24:56.961Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:24:56.963Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:24:56.963Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:24:56.963Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:24:56.963Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26861,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:24:56.963Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26932,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:25:48.047Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26932,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:25:48.107Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26932,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:25:49.472Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26987,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:26:33.548Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26987,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:26:33.613Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":26987,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:26:34.783Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27028,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:26:47.360Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27028,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:26:47.421Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27028,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:26:48.707Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:27:01.504Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:27:01.564Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:27:03.299Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:27:03.310Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:27:03.313Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:27:03.370Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:27:03.372Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:27:03.372Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:27:03.372Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:27:03.372Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27065,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:27:03.372Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:27:15.747Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:27:15.811Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:27:17.813Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:27:17.822Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:27:17.824Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:27:17.881Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:27:17.883Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:27:17.883Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:27:17.883Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:27:17.884Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27104,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:27:17.884Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27197,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:28:46.078Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27197,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:28:46.142Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27197,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:28:50.602Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27295,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:30:08.536Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27295,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:30:08.596Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27295,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:30:10.637Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27336,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:30:29.943Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27336,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:30:30.003Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27336,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:30:31.563Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27377,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:30:53.254Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27377,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:30:53.316Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27377,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:30:54.460Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27377,"level":30,"msg":"Published payload \"jayantjnp@gmail.com\"","time":"2018-01-20T05:30:54.469Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27377,"level":30,"msg":"Published payload {\"type\":\"Buffer\",\"data\":[123,34,117,115,101,114,110,97,109,101,34,58,34,106,97,121,97,110,116,106,110,112,64,103,109,97,105,108,46,99,111,109,34,44,34,112,97,115,115,119,111,114,100,34,58,34,106,97,121,97,110,116,115,34,44,34,110,97,109,101,34,58,34,74,97,121,97,110,116,32,83,111,108,97,110,107,105,34,44,34,103,101,110,100,101,114,34,58,34,77,97,108,101,34,44,34,99,111,110,116,97,99,116,34,58,57,48,52,52,55,55,53,57,51,51,125]}","time":"2018-01-20T05:30:54.471Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27377,"level":30,"msg":"Published payload \"jayantjnp@gmail.com\"","time":"2018-01-20T05:30:54.472Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27423,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:31:17.624Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27423,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:31:17.684Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27423,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:31:19.112Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27423,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:31:19.121Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27423,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:31:19.123Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27423,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:31:19.124Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27469,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:31:40.872Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27469,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:31:40.934Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27469,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:31:42.184Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27469,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:31:42.193Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27469,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:31:42.195Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27469,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:31:42.196Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27536,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:32:04.415Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27536,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:32:04.478Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27536,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:32:06.621Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27536,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:32:06.630Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27536,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:32:06.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27536,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:32:06.633Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27593,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:32:32.223Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27593,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:32:32.284Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27593,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:32:33.777Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27643,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:32:51.939Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27643,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:32:51.999Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27643,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:32:55.083Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27643,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:32:55.091Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27643,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:32:55.093Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27643,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:32:55.094Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27701,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:33:27.244Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27701,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:33:27.305Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27701,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:33:31.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:33:41.392Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:33:41.456Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:33:42.771Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:33:42.780Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:33:42.782Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:33:42.840Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:33:42.842Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:33:42.842Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:33:42.842Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:33:42.842Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27741,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:33:42.842Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27825,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:34:01.248Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27825,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:34:01.308Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27825,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:34:02.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:34:23.209Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:34:23.271Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:34:24.418Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:34:24.426Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:34:24.429Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:34:24.485Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:34:24.488Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:34:24.488Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:34:24.488Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:34:24.488Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27875,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:34:24.488Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:34:36.886Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:34:36.948Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:34:38.341Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T05:34:38.350Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":30,"msg":"Published payload {\"username\":\"jayantjnp@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T05:34:38.352Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T05:34:38.410Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:34:38.412Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:34:38.412Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:34:38.412Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:34:38.412Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27920,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:34:38.412Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:35:01.168Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:35:01.232Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:35:02.611Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:35:02.620Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:35:02.622Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:35:02.623Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:35:02.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:35:02.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:35:02.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:35:02.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":27982,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:35:02.682Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28023,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:35:18.335Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28023,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:35:18.395Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28023,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:35:20.002Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28070,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:35:35.053Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28070,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:35:35.115Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28070,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:35:36.963Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:35:55.637Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:35:55.699Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:35:57.200Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:35:57.209Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:35:57.211Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:35:57.211Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:35:57.270Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:35:57.270Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:35:57.270Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:35:57.270Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28112,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:35:57.270Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28166,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:37:32.309Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28166,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:37:32.372Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28166,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:37:55.106Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28166,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:37:55.111Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28166,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:37:55.117Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:38:26.490Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:38:26.552Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:38:28.012Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:38:28.020Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:38:28.022Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:38:28.079Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:38:28.081Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:38:28.081Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:38:28.081Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:38:28.081Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28233,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:38:28.081Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:39:20.041Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:39:20.101Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:39:21.886Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:39:21.896Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:39:21.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:39:21.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:39:21.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:39:21.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28322,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:39:21.954Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28415,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:39:40.891Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28415,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:39:40.951Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28415,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:39:43.667Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28462,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:40:00.860Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28462,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:40:00.920Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28462,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:40:02.715Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:40:24.468Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:40:24.530Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:40:26.233Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":30,"msg":"Published payload 123","time":"2018-01-20T05:40:26.244Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:40:26.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:40:26.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:40:26.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:40:26.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28503,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:40:26.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:40:59.195Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:40:59.256Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:41:01.204Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":30,"msg":"Published payload 34","time":"2018-01-20T05:41:01.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:41:01.274Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:41:01.274Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:41:01.274Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:41:01.274Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28551,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:41:01.274Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:41:13.571Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:41:13.631Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:41:15.067Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:41:15.077Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:41:15.137Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:41:15.137Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:41:15.137Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:41:15.137Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28592,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:41:15.137Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28658,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:42:36.684Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28658,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:42:36.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28658,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:42:38.094Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28658,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:42:42.481Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28736,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:43:30.955Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28736,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:43:31.015Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28736,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:43:32.550Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:43:51.202Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:43:51.262Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:43:52.459Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":30,"msg":"Published payload {\"username\":\"jayantjnp@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T05:43:52.469Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:43:52.528Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:43:52.528Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:43:52.528Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:43:52.528Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28826,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:43:52.528Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:44:18.411Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:44:18.472Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:44:20.673Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:44:20.683Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:44:20.744Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:44:20.744Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:44:20.744Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:44:20.744Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28869,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:44:20.744Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:44:31.906Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:44:31.967Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:44:33.334Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":30,"msg":"Published payload 123","time":"2018-01-20T05:44:33.344Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:44:33.404Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:44:33.404Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:44:33.404Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:44:33.404Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28915,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:44:33.404Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:45:00.042Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:45:00.102Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:45:01.506Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":30,"msg":"Published payload  123","time":"2018-01-20T05:45:01.519Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:45:01.578Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:45:01.578Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:45:01.578Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:45:01.578Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":28968,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:45:01.578Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":30,"msg":"Database connection initialised","time":"2018-01-20T05:45:23.975Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T05:45:24.035Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T05:45:25.596Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":30,"msg":"Published payload undefined","time":"2018-01-20T05:45:25.607Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:45:25.667Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:45:25.667Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T05:45:25.667Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:45:25.667Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29017,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T05:45:25.667Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:00:03.307Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:00:03.369Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:00:05.598Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":30,"msg":"Published payload 123","time":"2018-01-20T06:00:05.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:00:05.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:00:05.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:00:05.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:00:05.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29429,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:00:05.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29477,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:00:23.904Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29477,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:00:23.965Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29477,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:00:25.404Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:00:48.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:00:48.276Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:00:51.255Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":30,"msg":"Published payload {\"username\":\"jayantjnp@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T06:00:51.269Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:00:51.329Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:00:51.329Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:00:51.329Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:00:51.329Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29524,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:00:51.329Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29707,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:05:25.091Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29707,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:05:25.152Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29707,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:05:27.685Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:05:42.145Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:05:42.206Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:05:44.411Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":30,"msg":"Published payload undefined","time":"2018-01-20T06:05:44.425Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:05:44.484Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:05:44.484Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:05:44.484Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:05:44.484Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29754,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:05:44.484Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:06:18.884Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:06:18.946Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:06:20.297Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":30,"msg":"Published payload {\"username\":\"jayantjnp@gmail.com\",\"password\":\"jayants\",\"name\":\"Jayant Solanki\",\"gender\":\"Male\",\"contact\":9044775933}","time":"2018-01-20T06:06:20.308Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:06:20.368Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:06:20.368Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:06:20.368Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:06:20.368Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29820,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:06:20.368Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:06:36.684Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:06:36.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:06:38.095Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":30,"msg":"Published payload 123","time":"2018-01-20T06:06:38.105Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:06:38.164Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:06:38.164Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:06:38.164Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:06:38.164Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":29861,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:06:38.164Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30037,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:07:43.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30037,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:07:43.532Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30037,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:07:45.290Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30075,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:07:56.179Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30075,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:07:56.238Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30075,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:07:57.899Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30117,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:08:13.047Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30117,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:08:13.107Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30117,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:08:14.408Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30158,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:08:25.921Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30158,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:08:25.982Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30158,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:08:27.688Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:08:37.637Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:08:37.700Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:08:38.851Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":30,"msg":"Published payload undefined","time":"2018-01-20T06:08:38.862Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:08:38.921Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:08:38.921Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:08:38.921Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:08:38.921Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30197,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:08:38.921Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:09:26.109Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:09:26.169Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:09:27.778Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":30,"msg":"Published payload undefined","time":"2018-01-20T06:09:27.791Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:09:27.850Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:09:27.850Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:09:27.850Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:09:27.851Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30342,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:09:27.851Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:11:01.626Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:11:01.687Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:11:03.061Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":30,"msg":"Published payload [object Undefined]","time":"2018-01-20T06:11:03.071Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:03.130Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:03.130Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:03.130Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:11:03.130Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30415,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:11:03.130Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:11:29.917Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:11:29.979Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:11:31.144Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":30,"msg":"Published payload [object Object]","time":"2018-01-20T06:11:31.155Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:31.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:31.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:31.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:11:31.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30467,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:11:31.215Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:11:57.684Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:11:57.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:11:59.760Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":30,"msg":"Published payload undefined","time":"2018-01-20T06:11:59.770Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:59.829Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:59.829Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:11:59.829Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:11:59.829Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30511,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:11:59.829Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30576,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:12:30.311Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30576,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:12:30.371Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30576,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:12:31.752Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:12:50.847Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:12:50.908Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:12:52.398Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":30,"msg":"Published payload {\"topic\":\"register\",\"payload\":{\"type\":\"Buffer\",\"data\":[123,34,117,115,101,114,110,97,109,101,34,58,34,106,97,121,97,110,116,106,110,112,64,103,109,97,105,108,46,99,111,109,34,44,34,112,97,115,115,119,111,114,100,34,58,34,106,97,121,97,110,116,115,34,44,34,110,97,109,101,34,58,34,74,97,121,97,110,116,32,83,111,108,97,110,107,105,34,44,34,103,101,110,100,101,114,34,58,34,77,97,108,101,34,44,34,99,111,110,116,97,99,116,34,58,57,48,52,52,55,55,53,57,51,51,125]},\"messageId\":\"L5Nvx1f\",\"qos\":0,\"retain\":false}","time":"2018-01-20T06:12:52.409Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:12:52.468Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:12:52.468Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:12:52.468Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:12:52.468Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30615,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:12:52.468Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:13:25.220Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:13:25.280Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:13:26.562Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":30,"msg":"Published payload undefined","time":"2018-01-20T06:13:26.573Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:13:26.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:13:26.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:13:26.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:13:26.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30654,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:13:26.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:13:43.000Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:13:43.060Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:13:44.333Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":30,"msg":"Published payload undefined","time":"2018-01-20T06:13:44.344Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:13:44.403Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:13:44.403Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:13:44.403Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:13:44.403Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30700,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:13:44.403Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:13:58.747Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:13:58.812Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:14:00.044Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":30,"msg":"Published payload {","time":"2018-01-20T06:14:00.055Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:14:00.114Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:14:00.114Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:14:00.114Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:14:00.114Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30780,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:14:00.114Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:14:19.909Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:14:19.972Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:14:21.312Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":30,"msg":"Published payload r","time":"2018-01-20T06:14:21.323Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:14:21.381Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:14:21.381Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:14:21.381Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:14:21.381Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30825,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:14:21.381Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:15:02.139Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:15:02.201Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:15:03.538Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":30,"msg":"Published payload {\"topic\":\"register\",\"payload\":{\"type\":\"Buffer\",\"data\":[123,34,117,115,101,114,110,97,109,101,34,58,34,106,97,121,97,110,116,106,110,112,64,103,109,97,105,108,46,99,111,109,34,44,34,112,97,115,115,119,111,114,100,34,58,34,106,97,121,97,110,116,115,34,44,34,110,97,109,101,34,58,34,74,97,121,97,110,116,32,83,111,108,97,110,107,105,34,44,34,103,101,110,100,101,114,34,58,34,77,97,108,101,34,44,34,99,111,110,116,97,99,116,34,58,57,48,52,52,55,55,53,57,51,51,125]},\"messageId\":\"DIOvCdW\",\"qos\":0,\"retain\":false}","time":"2018-01-20T06:15:03.548Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:15:03.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:15:03.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:15:03.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:15:03.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":30901,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:15:03.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:16:55.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:16:55.303Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:16:56.780Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":30,"msg":"Published payload [object Object]","time":"2018-01-20T06:16:56.791Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:16:56.853Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:16:56.853Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:16:56.853Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:16:56.853Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31002,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:16:56.853Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31078,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:17:26.761Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31078,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:17:26.822Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31078,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:17:28.613Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:18:07.525Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:18:07.589Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:18:08.948Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":30,"msg":"Published payload username,password,name,gender,contact","time":"2018-01-20T06:18:08.959Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:18:09.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:18:09.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:18:09.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:18:09.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31130,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:18:09.018Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:18:27.212Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:18:27.273Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:18:30.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":30,"msg":"Published payload username","time":"2018-01-20T06:18:30.015Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:18:30.074Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:18:30.074Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:18:30.074Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:18:30.075Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31177,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:18:30.075Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:19:22.679Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:19:22.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:19:25.401Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":30,"msg":"Published payload username","time":"2018-01-20T06:19:25.411Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:19:25.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:19:25.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:19:25.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:19:25.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31272,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:19:25.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:19:54.638Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:19:54.700Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:19:56.274Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T06:19:56.285Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:19:56.343Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:19:56.343Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:19:56.343Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:19:56.343Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31317,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:19:56.343Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:20:18.007Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:20:18.068Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:20:19.219Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":30,"msg":"Published payload jayantjnp@gmail.com","time":"2018-01-20T06:20:19.230Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:19.289Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:19.289Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:19.289Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:20:19.289Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31362,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:20:19.289Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:20:29.797Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:20:29.858Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:20:32.825Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":30,"msg":"Published payload 9044775933","time":"2018-01-20T06:20:32.835Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:32.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:32.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:32.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:20:32.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31403,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:20:32.894Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:20:48.782Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:20:48.845Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:20:51.563Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":30,"msg":"Published payload 9044775933","time":"2018-01-20T06:20:51.573Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:51.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:51.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:20:51.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:20:51.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31443,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:20:51.632Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:21:12.432Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:21:12.491Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:21:15.172Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":30,"msg":"Published payload [object Object]","time":"2018-01-20T06:21:15.183Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:21:15.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:21:15.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":50,"msg":"MYSQL ERROR Error: ER_DATA_TOO_LONG: Data too long for column 'gender' at row 1","time":"2018-01-20T06:21:15.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:21:15.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31490,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:21:15.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31575,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:22:18.568Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31575,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:22:18.631Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31575,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:22:20.398Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31575,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T06:22:20.409Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31575,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T06:22:20.472Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:24:02.713Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:24:02.779Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:24:03.934Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T06:24:03.945Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":50,"msg":"MYSQL ERROR Error: ER_BAD_FIELD_ERROR: Unknown column 'now' in 'field list'","time":"2018-01-20T06:24:04.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":50,"msg":"MYSQL ERROR Error: ER_BAD_FIELD_ERROR: Unknown column 'now' in 'field list'","time":"2018-01-20T06:24:04.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":50,"msg":"MYSQL ERROR Error: ER_BAD_FIELD_ERROR: Unknown column 'now' in 'field list'","time":"2018-01-20T06:24:04.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:24:04.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31815,"level":40,"msg":"User already exist, try different email id","time":"2018-01-20T06:24:04.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31862,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:24:41.377Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31862,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:24:41.442Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31862,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:24:42.625Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31862,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T06:24:42.636Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":31862,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T06:24:42.700Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32010,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:25:30.091Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32010,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:25:30.152Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32010,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:25:31.522Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32010,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T06:25:31.533Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32010,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T06:25:31.594Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:32:47.425Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:32:47.485Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:33:01.855Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T06:33:01.865Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into user_details table","time":"2018-01-20T06:33:01.927Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"User connected","time":"2018-01-20T06:33:01.927Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32329,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T06:33:01.935Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32634,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:37:52.471Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32634,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:37:52.531Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32634,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:37:55.254Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32634,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:37:55.269Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":32634,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:37:55.269Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":416,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:43:01.321Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":416,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:43:01.384Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":416,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:43:04.041Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":416,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:43:04.055Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":416,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:43:04.055Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":458,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:43:22.475Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":458,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:43:22.535Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":458,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:43:24.553Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":458,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:43:24.566Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":458,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:43:24.566Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":582,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:43:55.925Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":582,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:43:55.990Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":582,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:43:57.332Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":582,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:43:57.346Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":582,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:43:57.346Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":651,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:44:48.818Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":651,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:44:48.878Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":651,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:44:50.751Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":651,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:44:50.821Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":651,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:44:50.821Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":823,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:46:28.933Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":823,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:46:28.993Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":823,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:46:30.337Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":823,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:46:30.463Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":823,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:46:30.463Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":880,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:47:17.479Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":880,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:47:17.539Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":880,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:47:20.012Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":880,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:47:20.136Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":880,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:47:20.136Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:48:06.453Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:48:06.514Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:48:07.957Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"Published username jayantjnp@gmail.com","time":"2018-01-20T06:48:07.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into user_details table","time":"2018-01-20T06:48:08.032Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"User connected","time":"2018-01-20T06:48:08.032Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1014,"level":30,"msg":"New User found, adding jayantjnp@gmail.com into login table","time":"2018-01-20T06:48:08.040Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1175,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:48:39.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1175,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:48:39.738Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1175,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:48:51.706Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1175,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:48:51.834Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1175,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:48:51.834Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1306,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:50:17.691Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1306,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:50:17.755Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1306,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:50:21.873Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1306,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:50:21.996Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1306,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:50:21.996Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1419,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:52:03.096Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1419,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:52:03.156Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1419,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:52:04.724Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1419,"level":30,"msg":"Passwords matched","time":"2018-01-20T06:52:04.847Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1493,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:52:29.696Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1493,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:52:29.759Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1493,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:52:31.213Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1493,"level":30,"msg":"Passwords matched","time":"2018-01-20T06:52:31.335Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:52:53.002Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:52:53.064Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:52:54.403Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":30,"msg":"Passwords matched","time":"2018-01-20T06:52:54.526Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:53:58.800Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:53:58.923Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:53:58.923Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1665,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:54:27.124Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1814,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:55:06.838Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1814,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:55:06.898Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1814,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:55:08.944Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1814,"level":40,"msg":"User jayantjsnp@gmail.com does not exist","time":"2018-01-20T06:55:08.957Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":1814,"level":40,"msg":"User jayantjsnp@gmail.com does not exist","time":"2018-01-20T06:55:08.957Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2034,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:57:13.553Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2034,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:57:13.614Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2034,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:57:16.490Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2034,"level":40,"msg":"User jayantjsnp@gmail.com does not exist","time":"2018-01-20T06:57:16.503Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2034,"level":40,"msg":"User jayantjsnp@gmail.com does not exist","time":"2018-01-20T06:57:16.503Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:57:59.513Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:57:59.573Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:58:01.057Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":40,"msg":"User jayantjsnp@gmail.com does not exist","time":"2018-01-20T06:58:01.069Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":40,"msg":"User jayantjsnp@gmail.com does not exist","time":"2018-01-20T06:58:01.069Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:58:17.767Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:58:17.831Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2093,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:58:17.831Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Database connection initialised","time":"2018-01-20T06:59:14.604Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T06:59:14.668Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T06:59:17.940Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:59:18.010Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":40,"msg":"Passwords not matched","time":"2018-01-20T06:59:18.010Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-20T07:00:50.287Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":2197,"level":30,"msg":"Passwords matched","time":"2018-01-20T07:00:50.352Z","v":0}
