@@ -1,0 +1,18 @@
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8151,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T00:02:36.548Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8180,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T00:03:08.624Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Mosca server is up and running on 127.0.0.1:1883","time":"2018-01-20T00:08:29.323Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Client id is  undefined","time":"2018-01-20T00:08:39.624Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published topic $SYS/yvjsj4C/new/clients","time":"2018-01-20T00:08:39.624Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published payload subscriber","time":"2018-01-20T00:08:39.624Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Client id is  undefined","time":"2018-01-20T00:08:39.628Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published topic $SYS/yvjsj4C/new/subscribes","time":"2018-01-20T00:08:39.629Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published payload {\"clientId\":\"subscriber\",\"topic\":\"#\"}","time":"2018-01-20T00:08:39.629Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Client id is  undefined","time":"2018-01-20T00:09:25.131Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published topic $SYS/yvjsj4C/new/clients","time":"2018-01-20T00:09:25.131Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published payload Publishers","time":"2018-01-20T00:09:25.131Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Client id is  undefined","time":"2018-01-20T00:09:25.143Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published topic esp/18:fe:34:9b:63:7c","time":"2018-01-20T00:09:25.144Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published payload 12-31-13-AA-FD-433005","time":"2018-01-20T00:09:25.144Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Client id is  undefined","time":"2018-01-20T00:09:25.147Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published topic $SYS/yvjsj4C/disconnect/clients","time":"2018-01-20T00:09:25.147Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8489,"level":30,"msg":"Published payload Publishers","time":"2018-01-20T00:09:25.147Z","v":0}
