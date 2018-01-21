@@ -66,6 +66,7 @@ $(document).ready(function() {
           });
           $('#result').html("<h4 style='color:green'>Successfully logged in</h4>");
           window.location.href = 'chatWindow.html';
+          
         }
         else if(msg.status==='Fail')
         {
