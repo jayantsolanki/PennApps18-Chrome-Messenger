@@ -1,4 +1,18 @@
 $(document).ready(function() {
+
+  chrome.storage.sync.get('user' ,function(show){
+
+      // console.log(show);
+      hostUser = show.user.username
+      if(show.user.username != null){
+        if(show.user.password != null)
+          window.location.href = 'chatWindow.html';
+        else
+          document.getElementById("myform").username.value = show.user.username
+
+
+      }
+  });
   $("#btn").click(function(e){
     e.preventDefault(); 
    var jsonData = {};
@@ -69,12 +83,3 @@ $(document).ready(function() {
     
   });//btn press ends here
 });//script ends here
-
-  chrome.storage.sync.get('friends' ,function(show){
-
-        console.log(show);
-    });
-  chrome.storage.sync.get('user' ,function(show){
-
-        console.log(show);
-    });

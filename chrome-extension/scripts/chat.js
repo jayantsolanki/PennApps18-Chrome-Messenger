@@ -107,5 +107,27 @@ $(document).ready(function() {
     
     
   });//btn press ends here
+  $("#logout").click(function(e){
+    alert(333)
+      e.preventDefault(); 
+      var jsonS={
+          username: hostUser,
+          password: null
+      };
+      chrome.storage.sync.set({'user':jsonS}, function() {
+        // Notify that we saved.
+        console.log('User credentials saved');
+      });
+      
+      window.location.href = 'signin.html';
+        
+    });
+    
+  // });//btn press ends here
+  // function logout(){
+  //   alert(2)
+  // }
+  
+//
 });//script ends here
 //load local storage variables
