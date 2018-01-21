@@ -108,7 +108,7 @@ $(document).ready(function() {
     
   });//btn press ends here
   $("#logout").click(function(e){
-    alert(333)
+    // alert(333)
       e.preventDefault(); 
       var jsonS={
           username: hostUser,
