@@ -77,12 +77,12 @@ connection.connect();//general
 log.info("Database connection initialised");
 // thingspeak.connect();//thingspeak
 //configuration ended
- 
+//works on both mqtt at 1883 and ws at 3000
 var settings = {
   port: env.mport,
   host: env.mhost,
   http: {
-    port: 3000,
+    port: env.hport,
     bundle: true,
     static: './'
 
@@ -182,7 +182,10 @@ server.on('published', function(packet, client) {
   }
   if(packet.topic=='connect')//request for signing-in the user and fetching friendlists
   {
+    jsonS = {}
+    var mqttclient  = mqtt.connect(mqttaddress,{encoding:'utf8', clientId: 'M-E-S-S-E-N-G-E-R'});
     var obj = JSON.parse(packet.payload);
+    customTopic = obj.username+obj.password
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if(emailRegex.test(client.id))//check if the username is the regex in email format form
     { 
@@ -199,11 +202,7 @@ server.on('published', function(packet, client) {
               // let hash = bcrypt.hashSync(toString(packet.payload), 10);
               if(bcrypt.compareSync(obj.password, storedPass)) {
                log.info('Passwords matched')
-              } else {
-               log.warn('Passwords not matched')
-              }
-              //proceed to fetch the friend list
-              var check='SELECT user_details.name as name, user_details.email as email, user_details.gender as gender, friends_map.topic as topic FROM friends_map left join user_details on user_details.id = friends_map.user_id_2 WHERE friends_map.user_id_1='+user_id+''; //return all the topics and related friends
+               var check='SELECT user_details.name as name, user_details.email as email, user_details.gender as gender, friends_map.topic as topic FROM friends_map left join user_details on user_details.id = friends_map.user_id_2 WHERE friends_map.user_id_1='+user_id+''; //return all the topics and related friends
               connection.query(check, function(err, nrows, fields) 
               {      
                 if (err) 
@@ -215,22 +214,54 @@ server.on('published', function(packet, client) {
                       gender = nrows[0].gender;//retrieving stored gender
                       topic = nrows[0].topic;//retrieving stored gender
                       var jsonS={//just for single friend now
-                        "name":name,
-                        "email": email,
-                        "topic" : topic
+                        status:"Success",
+                        info: "Friends found",
+                        data:{
+                          "name":name,
+                          "email": email,
+                          "topic" : topic
+                        }
                       };
                       //send it back to user
                       //choose topic search
-                      log.info(jsonS)
+                      log.info('Friend list sent')
+                      mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
 
                   }
                   else
-                    log.warn('User '+obj.email+' does not exist')
+                  {
+                    log.warn('No friends found')
+                    var jsonS={
+                        status:"Fail",
+                        info: "You have not added any friends",
+                        data:null
+                    };
+                    mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+                  }
                 }
               });//query check ended
+              } else {
+               log.warn('Passwords not matched')
+               var jsonS={
+                  status:"Fail",
+                  info: "Password not matched",
+                  data:null
+               };
+               mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+              }
+              //proceed to fetch the friend list
+              
           }
           else
+          {
             log.warn('User '+obj.username+' does not exist')
+            var jsonS={
+                status:'Fail',
+                info: 'User '+obj.username+' does not exist',
+                data:null
+            };
+            mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+          }
         }
       });//query check ended
       
@@ -238,7 +269,10 @@ server.on('published', function(packet, client) {
     else
     {
       log.error("Wrong username format, must be email");
+      log.info(jsonS)
+      mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
     }
+
 
   }
   if(packet.topic=='search')//search for an email id
@@ -334,7 +368,7 @@ function setup() {
   // server.authenticate = authenticate;
   // server.authorizePublish = authorizePublish;
   // server.authorizeSubscribe = authorizeSubscribe;
-  log.info('Mosca server is up and running on '+env.mhost+':'+env.mport);
+  log.info('Mosca server is up and running on '+env.mhost+':'+env.mport+' for mqtt and '+env.mhost+':'+env.hport+' for websocket');
 
 }
 
@@ -401,4 +435,11 @@ connection.on('error', function(err) {
       throw err;                                  // server variable configures this)
     }
   });
+
+
+function mqttpub(mqttclient,topic,action)//method for publishing the message to client
+{
+  mqttclient.publish(topic, action.toString(), {retain:false, qos: 0});
+  mqttclient.end();
+}
 
