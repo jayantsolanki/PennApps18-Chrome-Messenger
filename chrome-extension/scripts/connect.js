@@ -1,4 +1,4 @@
-  $(document).ready(function() {
+$(document).ready(function() {
   $("#btn").click(function(e){
     e.preventDefault(); 
    var jsonData = {};
@@ -28,22 +28,52 @@
     uniqueTopic = document.getElementById("myform").username.value + document.getElementById("myform").password.value
       // console.log(uniqueTopic)
     client.on('connect', function(){
-    client.subscribe('jayantjnp@gmail.com', {qos:0});
+    client.subscribe(uniqueTopic, {qos:0});
     console.log('subscribed')
        
     });
     client.on('message', function(topic, msg, Client){
         console.log('Received Message:'+msg)
-        // if(topic === uniqueTopic)
-          // client.end();
+        var msg = JSON.parse(msg);
+        // var myJSON = JSON.stringify(msg);
+        // alert(msg.status)
+        if(msg.status==='Success'){
+          chrome.storage.sync.set({'friends':msg.data}, function() {
+            // Notify that we saved.
+            console.log('Friend list saved');
+          });
+          var jsonS={
+              username: document.getElementById("myform").username.value,
+              password: document.getElementById("myform").password.value 
+          };
+          chrome.storage.sync.set({'user':jsonS}, function() {
+            // Notify that we saved.
+            console.log('User credentials saved');
+          });
+          $('#result').html("<h4 style='color:green'>Successfully logged in</h4>");
+        }
+        else if(msg.status==='Fail')
+        {
+          $('#result').html("<h4 style='color:red'>"+msg.info+"</h4>");
+        }
+        else if(msg.status==='Error')
+        {
+          $('#result').html("<h4 style='color:red'>"+msg.info+"</h4>");
+        }
+        
         
     });
-    var jsonData={
-          username:'jayantjnp@gmail.com',
-          email: "rohit@gmalil.com"
-       }
-    client.publish('search', JSON.stringify(jsonData), {retain:false, qos: 0});
+    client.publish('connect', JSON.stringify(jsonData), {retain:false, qos: 0});
     
     
-});
-});
+  });//btn press ends here
+});//script ends here
+
+  chrome.storage.sync.get('friends' ,function(show){
+
+        console.log(show);
+    });
+  chrome.storage.sync.get('user' ,function(show){
+
+        console.log(show);
+    });
