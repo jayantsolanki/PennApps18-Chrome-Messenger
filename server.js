@@ -295,9 +295,12 @@ server.on('published', function(packet, client) {
     }
 
   }
-  if(packet.topic=='search')//search for an email id
+  if(packet.topic=='search')//search for an email id, also client email is necessary for sending message back
   {
+    jsonS = {}
+    var mqttclient  = mqtt.connect(mqttaddress,{encoding:'utf8', clientId: 'M-E-S-S-E-N-G-E-R'});
     var obj = JSON.parse(packet.payload);
+    customTopic = obj.username
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if(emailRegex.test(obj.email))//check if the username is the regex in email format form
     { 
@@ -311,18 +314,43 @@ server.on('published', function(packet, client) {
               name = rows[0].name;//retrieving stored name
               email = rows[0].email;//retrieving stored email
               gender = rows[0].gender;//retrieving stored gender
-              var jsonS={
-                "name":name,
-                "email": email,
-                "gender" : gender
-              };
+              // var jsonS={
+              //   "name":name,
+              //   "email": email,
+              //   "gender" : gender
+              // };
               //send it back to user
               //choose topic search
+              var jsonS={
+                  status:"Success",
+                  info: "Match found",
+                  data:{
+                    "name":name,
+                    "email": email,
+                    "gender" : gender
+                  }
+               }
               log.info('Email found successfully')
+              MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+                if(flag == 1)
+                  mqttclient.end();
+              });
 
           }
           else
-            log.warn('User '+obj.email+' does not exist')
+            {
+              log.warn('User '+obj.email+' does not exist')
+              var jsonS={
+                  status:"Fail",
+                  info: "No match found",
+                  data:null
+               }
+              MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+                if(flag == 1)
+                  mqttclient.end();
+              });
+            }
+
         }
       });//query check ended
       
@@ -330,6 +358,15 @@ server.on('published', function(packet, client) {
     else
     {
       log.error("Wrong username format, must be email");
+      var jsonS={
+          status:"Fail",
+          info: "Wrong username format, must be email",
+          data:null
+       }
+      MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+        if(flag == 1)
+          mqttclient.end();
+      });
     }
 
   }

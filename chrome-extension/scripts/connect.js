@@ -28,7 +28,7 @@
     uniqueTopic = document.getElementById("myform").username.value + document.getElementById("myform").password.value
       // console.log(uniqueTopic)
     client.on('connect', function(){
-    client.subscribe(uniqueTopic, {qos:0});
+    client.subscribe('jayantjnp@gmail.com', {qos:0});
     console.log('subscribed')
        
     });
@@ -38,7 +38,11 @@
           // client.end();
         
     });
-    client.publish('connect', JSON.stringify(jsonData), {retain:false, qos: 0});
+    var jsonData={
+          username:'jayantjnp@gmail.com',
+          email: "rohit@gmalil.com"
+       }
+    client.publish('search', JSON.stringify(jsonData), {retain:false, qos: 0});
     
     
 });

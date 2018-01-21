@@ -3588,3 +3588,258 @@
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:27:46.259Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:27:46.259Z","v":0}
 {"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:27:46.261Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed nnbz6jq","time":"2018-01-21T02:48:55.277Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed mcxgzzs","time":"2018-01-21T02:48:55.285Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed wa5rv8c","time":"2018-01-21T02:48:55.285Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed 89gqbpm","time":"2018-01-21T02:48:55.286Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed tyll2xb","time":"2018-01-21T02:48:55.286Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed aadz6vd","time":"2018-01-21T02:48:55.286Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed j2unww2","time":"2018-01-21T02:48:55.286Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed ka86goz","time":"2018-01-21T02:48:55.286Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6074,"level":30,"msg":"client unsubscribed frvxigi","time":"2018-01-21T02:48:55.287Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Database connection initialised","time":"2018-01-21T02:50:03.866Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Mosca server is up and running on 10.103.226.26:1883 for mqtt and 10.103.226.26:3000 for websocket","time":"2018-01-21T02:50:03.927Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected u07f1ct","time":"2018-01-21T02:50:30.594Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:50:30.737Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:50:30.737Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:50:30.740Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected 4vr4uj1","time":"2018-01-21T02:50:31.810Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:50:31.890Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:50:31.890Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:50:31.895Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected yab8d7p","time":"2018-01-21T02:50:32.799Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:50:32.876Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"Passwords not matched","time":"2018-01-21T02:50:32.876Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:50:32.880Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected 3prqiyw","time":"2018-01-21T02:50:49.470Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:50:49.487Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:50:49.487Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:50:49.487Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:50:49.487Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:50:49.497Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected 1ocvrxp","time":"2018-01-21T02:50:50.172Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:50:50.181Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:50:50.181Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:50:50.181Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:50:50.181Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:50:50.186Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"client unsubscribed u07f1ct","time":"2018-01-21T02:52:15.000Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"client unsubscribed 1ocvrxp","time":"2018-01-21T02:52:15.004Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"client unsubscribed 4vr4uj1","time":"2018-01-21T02:52:15.004Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"client unsubscribed 3prqiyw","time":"2018-01-21T02:52:15.004Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"client unsubscribed yab8d7p","time":"2018-01-21T02:52:15.005Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected rleqcxc","time":"2018-01-21T02:52:36.970Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:36.981Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:36.981Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:36.981Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:36.982Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:36.985Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected h2xv3hy","time":"2018-01-21T02:52:40.743Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:40.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:40.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:40.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:40.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:40.754Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected k74w7dd","time":"2018-01-21T02:52:41.670Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:41.678Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:41.678Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:41.678Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:41.678Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:41.681Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected x1butzk","time":"2018-01-21T02:52:41.881Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:41.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:41.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:41.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:41.899Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:41.904Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected 6n1vrfq","time":"2018-01-21T02:52:42.078Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.094Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.094Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.094Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:42.094Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:42.100Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected pfq33pr","time":"2018-01-21T02:52:42.275Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.291Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.291Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.291Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:42.291Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:42.297Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected tw7g1ur","time":"2018-01-21T02:52:42.440Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.455Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.455Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.455Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:42.455Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:42.463Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected 5mtxvi5","time":"2018-01-21T02:52:42.720Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.736Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.736Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T02:52:42.736Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"","time":"2018-01-21T02:52:42.736Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:52:42.741Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected 5cux5zw","time":"2018-01-21T02:54:48.252Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Passwords matched","time":"2018-01-21T02:54:48.333Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Friend list sent","time":"2018-01-21T02:54:48.334Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T02:54:48.334Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T02:54:48.334Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected jayanyjnp@gmail.com","time":"2018-01-21T03:00:45.831Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:00:45.859Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:00:45.859Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:00:45.861Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected jayanyjnp@gmail.com","time":"2018-01-21T03:24:29.171Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:24:29.382Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:24:29.382Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":6997,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:24:29.395Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Database connection initialised","time":"2018-01-21T03:25:28.473Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Mosca server is up and running on 10.103.226.26:1883 for mqtt and 10.103.226.26:3000 for websocket","time":"2018-01-21T03:25:28.535Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected 7mwrfr7","time":"2018-01-21T03:25:35.064Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:25:35.111Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:25:35.111Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:25:35.111Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"","time":"2018-01-21T03:25:35.111Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:25:35.116Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected 16llq6u","time":"2018-01-21T03:25:41.384Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:25:41.478Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:25:41.478Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:25:41.480Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected raj78g6","time":"2018-01-21T03:25:53.316Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Passwords matched","time":"2018-01-21T03:25:53.405Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Friend list sent","time":"2018-01-21T03:25:53.406Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T03:25:53.406Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:25:53.409Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected u4nhex2","time":"2018-01-21T03:25:57.820Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Passwords matched","time":"2018-01-21T03:25:57.896Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Friend list sent","time":"2018-01-21T03:25:57.896Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T03:25:57.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:25:57.898Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected 1ky1abw","time":"2018-01-21T03:26:00.292Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Passwords matched","time":"2018-01-21T03:26:00.373Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Friend list sent","time":"2018-01-21T03:26:00.374Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T03:26:00.374Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:26:00.375Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected cdqzkhi","time":"2018-01-21T03:26:02.301Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Passwords matched","time":"2018-01-21T03:26:02.384Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Friend list sent","time":"2018-01-21T03:26:02.385Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T03:26:02.385Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:26:02.386Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected n9ks2pu","time":"2018-01-21T03:26:12.211Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:12.307Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:12.307Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:26:12.308Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected w3qzq75","time":"2018-01-21T03:26:12.843Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:12.931Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:12.931Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:26:12.932Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected o7lhjhb","time":"2018-01-21T03:26:13.818Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:13.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:13.897Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:26:13.899Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected zqzupoa","time":"2018-01-21T03:26:14.483Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:14.562Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"Passwords not matched","time":"2018-01-21T03:26:14.562Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:26:14.564Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed 1ky1abw","time":"2018-01-21T03:26:17.603Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed u4nhex2","time":"2018-01-21T03:26:17.608Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed raj78g6","time":"2018-01-21T03:26:17.609Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed o7lhjhb","time":"2018-01-21T03:26:17.609Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed w3qzq75","time":"2018-01-21T03:26:17.609Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed zqzupoa","time":"2018-01-21T03:26:17.611Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed 7mwrfr7","time":"2018-01-21T03:26:17.611Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed n9ks2pu","time":"2018-01-21T03:26:17.611Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed 16llq6u","time":"2018-01-21T03:26:17.612Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"client unsubscribed cdqzkhi","time":"2018-01-21T03:26:17.612Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected jayanyjnp@gmail.com","time":"2018-01-21T03:27:07.586Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:27:07.630Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:27:07.630Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:27:07.637Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected jayanyjnp@gmail.com","time":"2018-01-21T03:28:09.646Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:28:09.685Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:28:09.685Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:28:09.692Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected jayanyjnp@gmail.com","time":"2018-01-21T03:28:45.896Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:28:45.927Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:28:45.927Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:28:45.934Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected jayanyjnp@gmail.com","time":"2018-01-21T03:28:49.285Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:28:49.312Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":40,"msg":"User jayanyjnp@gmail.com does not exist","time":"2018-01-21T03:28:49.312Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:28:49.317Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-21T03:29:02.690Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Passwords matched","time":"2018-01-21T03:29:02.795Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Friend list sent","time":"2018-01-21T03:29:02.796Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T03:29:02.796Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:29:02.797Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected jayantjnp@gmail.com","time":"2018-01-21T03:29:27.260Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Passwords matched","time":"2018-01-21T03:29:27.417Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Friend list sent","time":"2018-01-21T03:29:27.418Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"status":"Success","info":"Friends found","data":{"name":"Rohit Nigam","email":"rohit@gmail.com","topic":"h46vnhy"},"msg":"","time":"2018-01-21T03:29:27.418Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:29:27.419Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected parik@gmail.com","time":"2018-01-21T03:32:55.883Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:32:55.895Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:32:55.895Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:32:55.895Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected parik@gmail.com","time":"2018-01-21T03:32:59.511Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:32:59.525Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:32:59.525Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:32:59.525Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected parik@gmail.com","time":"2018-01-21T03:33:01.405Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:33:01.419Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:33:01.419Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:33:01.419Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":30,"msg":"Client connected parik@gmail.com","time":"2018-01-21T03:34:53.948Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:34:53.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:34:53.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8345,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:34:53.968Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Database connection initialised","time":"2018-01-21T03:35:10.603Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Mosca server is up and running on 10.103.226.26:1883 for mqtt and 10.103.226.26:3000 for websocket","time":"2018-01-21T03:35:10.665Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected dqbb7vb","time":"2018-01-21T03:35:28.258Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:35:28.311Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:35:28.314Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected rc4qn4u","time":"2018-01-21T03:35:29.173Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:35:29.184Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:35:29.196Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected fzd7rze","time":"2018-01-21T03:35:30.006Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:35:30.023Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:35:30.025Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected 6w7pua3","time":"2018-01-21T03:36:12.561Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:36:12.591Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:36:12.594Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected 6jkucb2","time":"2018-01-21T03:36:13.551Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:36:13.559Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:36:13.562Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected s5jwus1","time":"2018-01-21T03:36:14.160Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:36:14.173Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:36:14.177Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed fzd7rze","time":"2018-01-21T03:36:15.740Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed 6jkucb2","time":"2018-01-21T03:36:15.747Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed rc4qn4u","time":"2018-01-21T03:36:15.747Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed 6w7pua3","time":"2018-01-21T03:36:15.748Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed s5jwus1","time":"2018-01-21T03:36:15.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed dqbb7vb","time":"2018-01-21T03:36:15.750Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected 8ja0gai","time":"2018-01-21T03:36:24.114Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:36:24.129Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:36:24.131Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected dfnk00p","time":"2018-01-21T03:36:24.996Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Email found successfully","time":"2018-01-21T03:36:25.015Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:36:25.019Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed 8ja0gai","time":"2018-01-21T03:37:40.833Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed dfnk00p","time":"2018-01-21T03:37:40.835Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected m264hka","time":"2018-01-21T03:38:15.520Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":40,"msg":"User rohit@gmalil.com does not exist","time":"2018-01-21T03:38:15.535Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":40,"msg":"User rohit@gmalil.com does not exist","time":"2018-01-21T03:38:15.535Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:38:15.539Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"client unsubscribed m264hka","time":"2018-01-21T03:38:39.193Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected pdeshmuk","time":"2018-01-21T03:39:13.614Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:39:13.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:39:13.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:39:13.639Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:39:13.652Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected pdeshmuk","time":"2018-01-21T03:39:14.217Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:39:14.232Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:39:14.232Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:39:14.232Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:39:14.241Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected parikshi","time":"2018-01-21T03:42:06.286Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:42:06.298Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:42:06.298Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":50,"msg":"Wrong username format, must be email","time":"2018-01-21T03:42:06.298Z","v":0}
+{"name":"Messenger-Log","hostname":"Mockingjay","pid":8716,"level":30,"msg":"Client connected M-E-S-S-E-N-G-E-R","time":"2018-01-21T03:42:06.303Z","v":0}
