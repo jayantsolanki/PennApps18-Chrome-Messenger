@@ -14,12 +14,14 @@ var pub  = mqtt.connect('ws://10.103.226.26:3000',settings);
 //pub.publish('esp/12-31-13-AA-FD-43', '12-31-13-AA-FD-433005', {retain:false, qos: 0});
 // pub.publish('register', 'jayants123', {retain:true, qos: 0});
 var jsonS={
-	"username":'rohit@gmail.com',
-	"password":'jayants'
+    status:"Success",
+    sender : 'Moon',
+    info: "Message",
+    data:"Houston, the Eagle has landed!"
 };
 // var jsonS={
 // 	"username":'parik@gmail.com',//host
 // 	"email":'rohit@gmail.com',//for friend
 // };
-pub.publish('connect', JSON.stringify(jsonS), {qos: 0});
+pub.publish("h46vnhy", JSON.stringify(jsonS), {qos: 0});
 pub.end();
