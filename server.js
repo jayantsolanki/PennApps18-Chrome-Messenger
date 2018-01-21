@@ -143,7 +143,7 @@ server.on('published', function(packet, client) {
     var obj = JSON.parse(packet.payload);//highly imprtant step
     log.info('Published username '+obj.username)
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    if(emailRegex.test(client.id))//regex.test(post.username))//check if the username is the regex in email format form
+    if(emailRegex.test(obj.username))//regex.test(post.username))//check if the username is the regex in email format form
       { 
         let hash = bcrypt.hashSync(obj.password, 10);
         var createLogin='INSERT INTO user_details (username, name, email, contact, gender, role) VALUES (\''+obj.username+'\', \''+obj.name+'\',\''+obj.username+'\',\''+obj.contact+'\', \''+obj.gender+'\',1)'
@@ -187,7 +187,7 @@ server.on('published', function(packet, client) {
     var obj = JSON.parse(packet.payload);
     customTopic = obj.username+obj.password
     var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    if(emailRegex.test(client.id))//check if the username is the regex in email format form
+    if(emailRegex.test(obj.username))//check if the username is the regex in email format form
     { 
       var check='SELECT user_id, password FROM login WHERE username=\''+obj.username+'\''; //checking if the user/password exists or not
       connection.query(check, function(err, rows, fields) 
@@ -225,7 +225,12 @@ server.on('published', function(packet, client) {
                       //send it back to user
                       //choose topic search
                       log.info('Friend list sent')
-                      mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+                      log.info(jsonS)
+                      // mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+                      MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+                        if(flag == 1)
+                          mqttclient.end();
+                      });
 
                   }
                   else
@@ -236,7 +241,11 @@ server.on('published', function(packet, client) {
                         info: "You have not added any friends",
                         data:null
                     };
-                    mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+                    // mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+                    MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+                        if(flag == 1)
+                          mqttclient.end();
+                      });
                   }
                 }
               });//query check ended
@@ -246,8 +255,12 @@ server.on('published', function(packet, client) {
                   status:"Fail",
                   info: "Password not matched",
                   data:null
-               };
-               mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+               }
+               // mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+               MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+                        if(flag == 1)
+                          mqttclient.end();
+                      });
               }
               //proceed to fetch the friend list
               
@@ -260,7 +273,11 @@ server.on('published', function(packet, client) {
                 info: 'User '+obj.username+' does not exist',
                 data:null
             };
-            mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+            // mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+            MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+              if(flag == 1)
+                mqttclient.end();
+            });
           }
         }
       });//query check ended
@@ -270,9 +287,12 @@ server.on('published', function(packet, client) {
     {
       log.error("Wrong username format, must be email");
       log.info(jsonS)
-      mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+      // mqttpub(mqttclient, customTopic,  JSON.stringify(jsonS));
+      MQTTPUB(mqttclient, customTopic,  JSON.stringify(jsonS), function(flag){
+        if(flag == 1)
+          mqttclient.end();
+      });
     }
-
 
   }
   if(packet.topic=='search')//search for an email id
@@ -437,9 +457,16 @@ connection.on('error', function(err) {
   });
 
 
-function mqttpub(mqttclient,topic,action)//method for publishing the message to client
-{
-  mqttclient.publish(topic, action.toString(), {retain:false, qos: 0});
-  mqttclient.end();
+// function mqttpub(Mqttclient,topic,action)//method for publishing the message to client
+// {
+//   Mqttclient.publish(topic, action, {qos: 0});
+//   Mqttclient.end();
+  
+// }
+
+function MQTTPUB(Mqttclient, topic, action, callback){
+  Mqttclient.publish(topic, action, {qos: 0});
+  callback(1)
 }
+
 
